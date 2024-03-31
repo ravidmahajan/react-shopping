@@ -74,3 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 npm install bootstrap --save
 
 npm install bootstrap-icons --save
+
+# import bootstrap in index.js
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
+
+# images download 
+https://www.freepik.com/

@@ -4,14 +4,20 @@ import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App';
+
 import { NetflixRegisterComponent } from './components/NetflixRegisterComponent';
+import NetflixIndexComponent from './components/NetflixIndexComponent'; // marked as default no need of {}
+
+import LoginComponent from './components/LoginComponent';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NetflixRegisterComponent />
+    {/* <NetflixRegisterComponent /> */}
+    <NetflixIndexComponent />
+    {/* <LoginComponent/> */}
   </React.StrictMode>
 );
 
