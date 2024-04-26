@@ -11,6 +11,7 @@ import NetflixIndexComponent from './components/NetflixIndexComponent'; // marke
 import LoginComponent from './components/LoginComponent';
 
 import reportWebVitals from './reportWebVitals';
+import RegisterComponent from './components/RegisterComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     {/* <NetflixRegisterComponent /> */}
     <NetflixIndexComponent />
     {/* <LoginComponent/> */}
+    {/* <RegisterComponent/> */}
   </React.StrictMode>
 );
 
