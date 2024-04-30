@@ -12,14 +12,17 @@ import LoginComponent from './components/LoginComponent';
 
 import reportWebVitals from './reportWebVitals';
 import RegisterComponent from './components/RegisterComponent';
+import DataBindingComponent from './components/DataBindingComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <NetflixRegisterComponent /> */}
-    <NetflixIndexComponent />
+    {/* <NetflixIndexComponent /> */}
     {/* <LoginComponent/> */}
     {/* <RegisterComponent/> */}
+    <DataBindingComponent/>
+
   </React.StrictMode>
 );
 

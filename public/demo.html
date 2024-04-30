@@ -1,0 +1,38 @@
+<script>
+    class BaseClass{
+        Print(){
+            document.write("Base Print<br>");
+        }
+        
+    }
+
+    class DerivedClass extends BaseClass{
+        Print(){
+            document.write("Derived Print<br>");
+        }
+    }
+
+    let obj = new DerivedClass();
+    obj.Print();
+</script>
+
+// Class in JavaScript
+// If derived class does not have constructor, not necessary to call base class constructor
+<!-- <script>
+    class BaseClass{
+        constructor(){
+            
+        }
+        
+    }
+
+    class DerivedClass extends BaseClass{
+        
+        // constructor(){
+        //     super();
+        // }
+    }
+
+    let obj1 = new DerivedClass();
+
+</script> -->
