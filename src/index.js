@@ -14,6 +14,8 @@ import reportWebVitals from './reportWebVitals';
 import RegisterComponent from './components/RegisterComponent';
 import DataBindingComponent from './components/DataBindingComponent';
 import OneWayBindingComponent from './components/OneWayBindingComponent';
+import ShoppingComponent from './components/ShoppingComponent';
+import EventBindingComponent from './components/EventBindingComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +25,9 @@ root.render(
     {/* <LoginComponent/> */}
     {/* <RegisterComponent/> */}
     {/* <DataBindingComponent/> */}
-    {<OneWayBindingComponent/>}
+    {/* {<OneWayBindingComponent/>} */}
+    {/* {<ShoppingComponent/>} */}
+    {<EventBindingComponent/>}
   </React.StrictMode>
 );
 

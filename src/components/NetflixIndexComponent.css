@@ -1,12 +1,12 @@
 .container-fluid{
     /* background-color: black; */
-    background-image: url("../../public/2148457886.jpg");
-    height: 100vmax;
+    /* background-image: url("../../public/2148457886.jpg"); */
+    /* height: 100vmax; */
     /* width: 100%; */
-    color: white;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 0;
+    /* color: white; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* padding: 0; */
 }
 
 .box {
