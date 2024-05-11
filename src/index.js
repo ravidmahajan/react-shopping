@@ -16,6 +16,7 @@ import DataBindingComponent from './components/DataBindingComponent';
 import OneWayBindingComponent from './components/OneWayBindingComponent';
 import ShoppingComponent from './components/ShoppingComponent';
 import EventBindingComponent from './components/EventBindingComponent';
+import TwoWayBinding from './components/TwoWayBinding';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +28,9 @@ root.render(
     {/* <DataBindingComponent/> */}
     {/* {<OneWayBindingComponent/>} */}
     {/* {<ShoppingComponent/>} */}
-    {<EventBindingComponent/>}
+    {/* {<EventBindingComponent/>} */}
+    {/* {<TwoWayBinding/>} */}
+    {<ShoppingComponent/>}
   </React.StrictMode>
 );
 
